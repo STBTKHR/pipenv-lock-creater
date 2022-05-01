@@ -1,0 +1,7 @@
+version: '3'
+services:
+    pipenv-lock-creator:
+        image: stbtkhr/pipenv-lock-creator:python3.9
+        container_name: pipenv-lock-creator
+        volumes:
+            - ./:/var/pipenv-lock-creator
